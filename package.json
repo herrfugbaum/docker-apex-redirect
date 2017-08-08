@@ -1,0 +1,23 @@
+{
+  "name": "docker-apex-redirect",
+  "version": "1.0.0",
+  "description": "Redirects all GET requests that hit a given APEX domain to a (dub-)domain.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herrfugbaum/docker-apex-redirect.git"
+  },
+  "keywords": [],
+  "author": "Pascal Spiesz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/herrfugbaum/docker-apex-redirect/issues"
+  },
+  "homepage": "https://github.com/herrfugbaum/docker-apex-redirect#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
